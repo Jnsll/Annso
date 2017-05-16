@@ -15,7 +15,7 @@ HOSTNAME = "{}:{}".format(HOST, PORT)  # This is the internal host on which aioH
 
 
 # HOST (public)
-HOST_P = "annso.absolumentg.fr"  # THIS url must be change if the annso server is reach via a public namespace that user
+HOST_P = HOSTNAME  # THIS url must be change if the annso server is reach via a public namespace that user
 RANGE_DEFAULT = 100
 RANGE_MAX = 1000
 
