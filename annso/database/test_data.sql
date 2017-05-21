@@ -63,7 +63,7 @@ INSERT INTO public.variant_hg19(id, chr, pos, ref, alt) VALUES
     (20000027, '3', 203, 'C', 'A'); -- a2 : f
 
 
-INSERT INTO public.sample_variant_hg19(sample_id, variant_id, chr, pos, ref, alt, genotype, deepth) VALUES
+INSERT INTO public.sample_variant_hg19(sample_id, variant_id, chr, pos, ref, alt, genotype, depth) VALUES
 -- N-Papa
     (10010, 20000000, '1', 1, 'A', 'T', 1, 100),
     (10010, 20000001, '2', 1, 'A', 'T', 1, 100),
