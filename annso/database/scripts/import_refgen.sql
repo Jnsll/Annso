@@ -31,7 +31,7 @@ ALTER TABLE public.import_refgene_hg19
   OWNER TO annso;
 
 
-COPY import_refgene_hg19 FROM '/var/regovar/data/db/refgen/refGene.txt' DELIMITER E'\t' CSV;
+\COPY import_refgene_hg19 FROM '/var/regovar/data/db/refgen/refGene.txt' DELIMITER E'\t' CSV;
 
 
 

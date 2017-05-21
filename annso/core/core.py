@@ -625,7 +625,7 @@ class FilterEngine:
 
     def create_working_table(self, analysis_id, sample_ids, field_uids, dbs_uids, filter_ids=[], attributes={}):
         """
-            Create a working sql table for the analysis to improove speed of filtering/annotation.
+            Create a working sql table for the analysis to improve speed of filtering/annotation.
             A Working table contains all variants used by the analysis, with all annotations used by filters or displayed
         """
         if len(sample_ids) == 0: raise AnnsoException("No sample... so not able to retrieve data")

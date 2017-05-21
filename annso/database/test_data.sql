@@ -1,7 +1,7 @@
 
 
 
-INSERT INTO public.analysis(id, name, setting, creation_date, update_date)
+INSERT INTO public.analysis(id, name, settings, creation_date, update_date)
 VALUES (10000, 'Test Annso Normal', '{"fields": [2, 4, 5, 6, 7, 8, 9, 11, 22, 16], "filter": ["AND", [["==",["field",4], ["value", 1]], [">", ["field", 9], ["value", 50]]]]}', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 
