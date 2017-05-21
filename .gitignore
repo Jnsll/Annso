@@ -92,3 +92,4 @@ ENV/
 annso/core/omim_api_key
 fake.sql
 
+.idea
